@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login - Red Dragon Casino - Las Vegas</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="top">
+	<nav class="navbar navbar-expand-sm sticky-top" role="navigation">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">
+				<img src="images/logo.gif" alt="" width="70px">
+				<img src="images/logo-text.png" alt="" width="120px">
+			</a>
+			<ul class="navbar-nav">
+				<li class="nav-item nav-csn">
+					<a href="index.html#promotions" class="nav-link nav-csn-a">Promotions</a>
+				</li>
+				<li class="nav-item nav-csn">
+					<a href="index.html#games" class="nav-link nav-csn-a">Games</a>
+				</li>
+				<li class="nav-item nav-csn">
+					<a href="index.html#vip" class="nav-link nav-csn-a">VIP</a>
+				</li>
+				<li class="nav-item nav-csn">
+					<a href="index.html#rank" class="nav-link nav-csn-a">Ranking</a>
+				</li>
+				<li class="nav-item nav-csn">
+					<a href="index.html#contact" class="nav-link nav-csn-a">Contact Us</a>
+				</li>
+				<li class="nav-item me-2 nav-csn">
+					<a href="index.html#about" class="nav-link nav-csn-a">About Us</a>
+				</li>
+				<li class="nav-item">
+					<span class="nav-link" style="color:#ffffff">|</span>
+				</li>
+				<li class="nav-item mx-2">
+					<a href="login.html" type="button" class="btn btn-csn btn-sm">Login</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a href="register.html" type="button" class="btn btn-outline-primary btn-sm">Join</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<section id="login">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-4 csn-con my-5 bg-dark text-white p-5">
+					<form id="form-login" action="#" method="GET">
+						<h3 class="mb-3">Login</h3>
+						<div class="alert alert-danger hidden" id="le-alert">
+							<strong>502 bad gateway:</strong> one server got an invalid respone from another
+						</div>
+						<div class="mb-3">
+							<label for="email" class="form-label">Email:</label>
+							<input type="email" class="form-control" name="email" id="email" placeholder="Enter Email" required>
+						</div>
+						<div class="mb-3">
+							<label for="pass" class="form-label">Password:</label>
+							<input type="password" class="form-control" name="pass" id="pass" placeholder="Enter Password" required>
+						</div>
+						<div class="mb-3 d-flex justify-content-between">
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" id="check" name="check">
+								<label class="form-check-label" for="check"> Remember Me</label>
+							</div>
+							<a href="#" class="login-a">Forgot Password?</a>
+						</div>
+						<p class="text-center">Don't have account? <a href="register.html" class="login-a">Join</a></p>
+						<div class="text-center">
+							<button type="submit" class="btn btn-csn btn-lg">Login</button>
+						</div>
+					</form>
+					<div class="d-flex my-5">
+						<hr>
+						<h3 class="px-2">Or Using</h3>
+						<hr>
+					</div>
+					<div class="d-grid px-5 gap-3">
+						<a href="#" type="button" class="btn btn-s-gl btn-lg rounded-pill">
+							<i class="fa fa-google social-btn"></i>
+							Google
+						</a>
+						<a href="#" type="button" class="btn btn-s-fb btn-lg rounded-pill">
+							<i class="fa fa-facebook social-btn"></i>
+							Facebook
+						</a>
+						<a href="#" type="button" class="btn btn-s-ln btn-lg rounded-pill">
+							<i class="fa fa-linkedin-square social-btn"></i>
+							LinkedIn
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container-fluid bg-dark text-white">
+			<div class="container px-5 pb-5" style="padding-top:0.02px">
+				<hr>
+				<div class="row">
+					<div class="col-4">
+						<div class="d-flex justify-content-center mb-4">
+							<img src="images/logo-text.png" width="70%" height="70%" alt="">
+						</div>
+						<p class="d-flex align-items-center ct-text"><i class="fa fa-globe ct"></i><a href="#">https://www.reddragoncasino.com/</a></p>
+						<p class="d-flex align-items-center ct-text"><i class="fa fa-phone ct"></i><a href="#">+1 (725) 777-1408</a></p>
+						<p class="d-flex align-items-center ct-text"><i class="fa fa-envelope-o ct"></i><a href="#">support@reddragoncasino.com</a></p>
+					</div>
+					<div class="col-3">
+						<h3>News</h3>
+						<div class="d-flex news mt-4">
+							<a href="#"><img src="images/news1.jpg" alt=""></a>
+							<p><a href="#">Red Dragon Casino is rank #9 of the best casino in Las Vegas 2022!</a></p>
+						</div>
+						<div class="d-flex news">
+							<a href="#"><img src="images/news2.jpg" alt=""></a>
+							<p><a href="#">Red Dragon Casino is top-rated casino in USA. The national rank of casino is #85</a></p>
+						</div>
+					</div>
+					<div class="col-4">
+						<h3>Open Hours</h3>
+						<h4 class="d-flex align-items-center mt-4"><i class="fa fa-clock-o ohr"></i>24 hours</h4>
+					</div>
+					<div class="col-1 text-center">
+						<a href="#top"><i class="fa fa-angle-up goto-up"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="container px-5 pb-5">
+				<div class="row" style="width:120%">
+					<div class="col-ft-3 text-center">
+						<p class="c-text">&copy 2023 Red Dragon Casino</p>
+					</div>
+					<div class="col-ft-4 d-flex justify-content-between">
+						<li></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms & Guide</a></li>
+						<li><a href="#">Business</a></li>
+						<li></li>
+					</div>
+					<div class="col-ft-3">
+						<div class="on-ct d-flex">
+							<p class="on-text"><div class="on-id"></div>337 users online right now!<br>Made by: Ari Eka Putragani</p>
+						</div>
+					</div>
+					<div class="col-auto">
+						<ul class="social">
+							<li><a href="#" class="fa fa-facebook"></a></li>
+							<li><a href="#" class="fa fa-instagram"></a></li>
+							<li><a href="#" class="fa fa-youtube-play"></a></li>
+							<li><a href="#" class="fa fa-linkedin-square"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery-3.6.4.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
